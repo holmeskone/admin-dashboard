@@ -236,9 +236,6 @@
     background-color: white;
 }
 
-.action-panel .content-actions{
-    justify-self: end;
-}
 
 .action-panel img{
   border-radius: 50px;
@@ -261,6 +258,20 @@
   font-weight: 600;
 }
 
+.action-panel .content-actions{
+  justify-self:center;
+}
+.action-panel .content-actions button{
+  margin: 0 1rem ;
+  color: white;
+  background-color: #1992D3;
+  border: 0px;
+  border-radius: 20px;
+  width: 6rem;
+  height: 2.5rem;
+  font-weight: 600;
+  font-size: 1rem;
+}
 
 /*CONTENT SECTION*/
 .content{
