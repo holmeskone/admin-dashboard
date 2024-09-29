@@ -294,10 +294,11 @@
   display: grid;
   grid-template-columns: 2fr 1fr;
   z-index: 1;
-  padding: 2rem 0 2rem 1rem;
+  padding: 2rem 2rem 2rem 1rem;
 
 }
 
+/*MAIN CONTENT SECTION*/
 .main-content{
   width: fit-content;
   padding-right: 1rem;
@@ -353,3 +354,48 @@
   justify-self: end;
 }
 
+/*SIDE CONTENT SECTION*/
+.announcements h3{
+  font-size: 1rem;
+  padding-bottom: 1rem;
+}
+
+.announcements .announcement-bar {
+background-color: white;
+padding: 1rem 2rem;
+border-radius: 5px;
+}
+
+.announcements .announcement-bar h4{
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 0.8rem;
+  }
+
+
+.announcements .announcement-bar .information{
+  font-weight: 400;
+  font-size: 0.7rem;
+  color: rgb(101, 101, 101);
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3; /* Limits text to 3 lines */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.5em; /* Adjust based on your font size */
+  max-height: calc(1.5rem * 3); /* Control max height based on the number of lines */
+}
+
+
+.announcements .announcement-bar .announcement{
+    padding: 1rem 0rem;
+    border-bottom: 1px solid rgb(175, 175, 175);
+  }
+
+  .announcements .announcement-bar div:last-child {
+    border-bottom: none; /* Removes the line under the last div */
+  }
+
+.announcement-bar hr{
+  padding: 1rem;
+}
