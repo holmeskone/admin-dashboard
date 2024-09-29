@@ -320,6 +320,7 @@
   grid-template-rows: 2fr 1fr;
   height: 10rem;
   width: 20rem;
+  box-shadow: 2px 2px 3px 0px rgb(197, 197, 197);
 }
 
 .project .text{
