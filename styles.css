@@ -245,8 +245,9 @@
     gap: 3rem;
     display: grid;
     background-color: white;
+    z-index: 10;
+    box-shadow: 00px 2px 1px 0px #c5cbd2;
 }
-
 
 .action-panel img{
   border-radius: 50px;
@@ -291,6 +292,51 @@
   grid-column: 2/3;
   background-color: #E2E8F0;
   display: grid;
-  grid-template-columns: 1fr 10fr;
+  grid-template-columns: 3fr 1fr;
+  z-index: 1;
+  padding: 2rem 0 0 1rem;
+}
+
+.projects{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 2rem;
+}
+
+.projects h3{
+  font-size: 1rem;
+}
+.projects .project{
+  background-color: white;
+  border-left: 0.5rem solid orange;
+  border-radius: 5px;
+  padding: 2rem 1rem 1rem 1rem;
+  gap: 0.5rem;
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+  height: 10rem;
+  width: 20rem;
+}
+
+.project .text{
+  height: fit-content;
+}
+
+.project p{
+  color: rgb(101, 101, 101);
+  font-size: 0.9rem;
+}
+
+.project .icons{
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: end;
+  gap:1rem;
+}
+
+.icons svg{
+  height: 1.5rem;
+  fill: rgb(87, 87, 87);
+  justify-self: end;
 }
 
