@@ -182,6 +182,7 @@
     background-color: #1992D3;
     grid-template-rows: 1fr 1fr 3fr;
     padding-left: 1rem;
+    padding-top: 2rem;
 }
 .sidebar svg{
   fill: white;
@@ -198,6 +199,7 @@
 /*Core Subsection*/
 .sidebar .core-menu{
   grid-row: 1/2;
+  padding-bottom: 2rem;
 }
 
 .core-menu .option{
@@ -365,6 +367,7 @@ background-color: white;
 padding: 1rem 2rem;
 border-radius: 5px;
 margin-bottom: 1rem;
+box-shadow: 2px 2px 3px 0px rgb(197, 197, 197);
 }
 
 .announcements .announcement-bar h4{
@@ -409,6 +412,7 @@ margin-bottom: 1rem;
   background-color: white;
   padding: 1rem;
   border-radius: 5px;
+  box-shadow: 2px 2px 3px 0px rgb(197, 197, 197);
 }
 
 .trending .account{
